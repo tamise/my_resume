@@ -131,7 +131,24 @@ a:hover #portrait {
 
 	ul {
 	padding-left: 1em;
+	}
+
 }
+
+/* --------------------------------- structure  width > 700px------------------------------- */
+
+@media screen and (max-width: 700px) {
+	
+	h1 {
+		color: #cccccc;
+		background-color: #25607b;
+		padding: 1em;
+	}
+
+	h2 {
+		background-color: #cccccc;
+	}
+
 
 }
 
