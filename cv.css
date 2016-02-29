@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Raleway_Bold';
+	src: url(fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Raleway_Medium';
+	src: url(fonts/Raleway-Medium.ttf);
+}
+
+body {
+	font-family: 'Raleway_Medium';
+	background: url(images/noisy_grid_2x.png), repeat;
+	color: #444444;
+	display: flex;
+}
+
+h1 {
+	font-family: 'Raleway_Bold';
+	font-size: 2em;
+	color: #25607b;
+}
+
+
+h2 {
+	font-family: 'Raleway_Bold';
+	font-size: 1.5em;
+	color: #25607b;
+}
+
+strong {
+	font-family: 'Raleway_Bold';
+	color: #b89723;
+}
+
+header {
+	text-align: center;
+}
+
+li {
+	text-align: justify;
+}
+
+#portrait {
+	border-width: 3px;
+    border-style: solid;
+	border-color: #25607b;
+	border-radius: 50px;
+	box-shadow: 2px 2px 8px #333333;
+	transform: scale(0.9);
+}
+
+a:hover #portrait {
+	transform: scale(1);
+}
+
+
+
+
