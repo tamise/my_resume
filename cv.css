@@ -89,5 +89,51 @@ a:hover #portrait {
 	padding-right: 2em;
 }
 
+/* --------------------------------- structure  width > 1024px------------------------------- */
+
+@media screen and (max-width: 1024px) {
+
+	#lisere{
+		display: none;
+	}
+
+	#page {
+		width: 100%;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+
+	#sec_container {
+		display: block;
+	}
+
+	#experience {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;	
+	}
+
+	#competences {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;	
+	}
+
+	#formation {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	ul {
+	padding-left: 1em;
+}
+
+}
+
 
 
