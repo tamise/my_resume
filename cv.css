@@ -54,6 +54,40 @@ a:hover #portrait {
 	transform: scale(1);
 }
 
+/* --------------------------------- structure de base ------------------------------- */
+
+#lisere{
+	width: 10%;
+	height: 800px;
+	background: url(images/pois.jpg);
+}
+
+#page {
+	width: 90%;
+}
+
+
+#sec_container {
+	display: flex;
+}
+
+#experience {
+	width: 40%;
+	padding-left: 2em;
+	padding-right: 1em;
+}
+
+#competences {
+	width: 30%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#formation {
+	width: 30%;
+	padding-left: 1em;
+	padding-right: 2em;
+}
 
 
 
